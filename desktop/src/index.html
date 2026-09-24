@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AnimeWallpaperX</title>
+    <script type="module" src="main.js" defer></script>
+  </head>
+  <body>
+    <main class="app">
+      <header>
+        <div>
+          <p class="eyebrow">Linux Desktop</p>
+          <h1>AnimeWallpaperX</h1>
+          <p class="lead">Beim Start ein neues Bild. Dazu ein Gedanke, der einen Moment hält.</p>
+        </div>
+        <button id="change" type="button">Jetzt wechseln</button>
+      </header>
+
+      <section class="switches">
+        <label class="card">
+          <span>
+            <strong>App</strong>
+            <small>Beim Anmelden starten. Aus heißt: kein automatischer Start.</small>
+          </span>
+          <input id="app-toggle" type="checkbox" />
+        </label>
+        <label class="card">
+          <span>
+            <strong>Hintergrund</strong>
+            <small>Bei jedem Start der App ein anderes Bild setzen.</small>
+          </span>
+          <input id="wall-toggle" type="checkbox" />
+        </label>
+      </section>
+
+      <section class="stage">
+        <img id="preview" alt="Aktuelles Hintergrundbild" />
+        <div class="caption">
+          <p class="kicker" id="filename"></p>
+          <h2 id="title">…</h2>
+          <p id="thought"></p>
+          <p id="note"></p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

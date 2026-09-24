@@ -9,9 +9,28 @@ und zeigt einen kurzen Satz zum Bild — im Terminal und, wenn vorhanden, als Be
 
 <br>
 
-[Starten](#starten) · [Sammlung](#die-sammlung) · [Autostart](#bei-jedem-anmelden) · [Bauen](#selbst-bauen)
+[Desktop-App](#desktop-app) · [Starten](#starten) · [Sammlung](#die-sammlung) · [Autostart](#bei-jedem-anmelden) · [Bauen](#selbst-bauen)
 
 </div>
+
+---
+
+## Desktop-App
+
+Die installierbare App ist mit **Tauri 2** gebaut. Im Fenster stellst du zwei Schalter:
+
+- **App an/aus** — legt fest, ob AnimeWallpaperX beim Anmelden startet.
+- **Hintergrund an/aus** — legt fest, ob bei jedem Start ein anderes Bild gesetzt wird.
+
+„Jetzt wechseln“ setzt sofort ein neues Bild und zeigt den passenden Gedanken.
+
+Das Installationspaket liegt unter [Releases](https://github.com/Pikaswelt/AnimeWallpaperX/releases). Auf Debian und Ubuntu:
+
+```bash
+sudo apt install ./AnimeWallpaperX_1.0.0_amd64.deb
+```
+
+Danach steht AnimeWallpaperX im Anwendungsmenü.
 
 ---
 
